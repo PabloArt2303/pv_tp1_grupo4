@@ -1,0 +1,128 @@
+/* Variables globales (colores y fuente) */
+:root {
+    --color-principal: #2c3e50;
+    --color-secundario: #3498db;
+    --color-fondo: #f4f4f4;
+    --color-texto: #333;
+    --color-blanco: #ffffff;
+    --fuente: Arial, sans-serif;
+}
+
+/* Reset básico (elimina márgenes y padding por defecto) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estructura general usando Grid */
+body {
+    font-family: var(--fuente);
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+
+    display: grid;
+    grid-template-rows: auto auto 1fr; /* header, nav, main */
+    min-height: 100vh;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: var(--color-principal);
+    color: var(--color-blanco);
+    text-align: center;
+    padding: 15px;
+}
+
+/* Barra de navegación (Flexbox) */
+nav {
+    background-color: var(--color-secundario);
+    display: flex;
+    justify-content: center; /* centra los links */
+    gap: 20px; /* espacio entre links */
+    padding: 10px;
+}
+
+/* Estilo de los enlaces */
+nav a {
+    color: var(--color-blanco);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+/* Efecto al pasar el mouse */
+nav a:hover {
+    background-color: var(--color-principal);
+    border-radius: 5px;
+}
+
+/* Efecto al hacer click */
+nav a:active {
+    transform: scale(0.95);
+}
+
+/* Efecto al seleccionar con teclado */
+nav a:focus {
+    outline: 2px solid black;
+}
+
+/* Contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo de las secciones */
+section {
+    background-color: var(--color-blanco);
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Tarjetas de estadísticas */
+section article {
+    display: inline-block;
+    margin: 10px;
+    padding: 15px;
+    background-color: var(--color-secundario);
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    width: 120px;
+}
+
+/* Listas */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+/* Estilo específico para la sección de estadísticas */
+.estadisticas {
+    border: 2px solid var(--color-secundario);
+}
+
+/* Alinear las tarjetas de estadísticas con Flexbox */
+.estadisticas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para novedades */
+.novedades {
+    border: 2px solid var(--color-secundario);
+}
+
+/*Alinear las novedades con Flexbox */
+.novedades {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

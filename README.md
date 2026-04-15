@@ -1,6 +1,13 @@
 #pv_tp1_grupo4
 -Quispe Pablo Arturo - PabloArt2303
 -Miranda Martinez Francisco Ariel - Fran-Mir21
+Claro, te dejo la **descripción actualizada del index**, breve y con tono más universitario 👇
+
+---
+
+index.html
+Corresponde a la página principal de la plataforma de gestión de proyectos educativos. Presenta un encabezado con navegación hacia las distintas secciones del sitio y un panel central organizado en bloques. Incluye una sección de estadísticas que resume información relevante (como cantidad de proyectos, tareas y mensajes), junto con apartados de tareas, mensajes y novedades que reflejan la actividad reciente del sistema. Su función es ofrecer una visión general y facilitar el acceso al resto de las páginas.
+
 proyectos.html
 Contiene el listado de proyectos disponibles en la plataforma. Incorpora una barra de filtros (no funcional en esta versión estática) y una visualización de proyectos mediante bloques que incluyen título, imagen, descripción, categoría y acceso a su vista detallada.
 
