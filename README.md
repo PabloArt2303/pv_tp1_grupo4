@@ -1,6 +1,7 @@
 #pv_tp1_grupo4
 -Quispe Pablo Arturo - PabloArt2303
 -Miranda Martinez Francisco Ariel - Fran-Mir21
+-Tarraga Gonzalo - GonzaloETarraga
 index.html
 Corresponde a la página principal de la plataforma de gestión de proyectos educativos. Presenta un encabezado con navegación hacia las distintas secciones del sitio y un panel central organizado en bloques. Incluye una sección de estadísticas que resume información relevante (como cantidad de proyectos, tareas y mensajes), junto con apartados de tareas, mensajes y novedades que reflejan la actividad reciente del sistema. Su función es ofrecer una visión general y facilitar el acceso al resto de las páginas.
 
